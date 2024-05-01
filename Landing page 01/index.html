@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap Landing Page</title>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Olá! Bem vindo ao site</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="jumbotron jumbotron-fluid">
+    <div class="container-fluid text-center">
+      <h1 class="display-3 title">A melhor solução para sua empresa</h1>
+      <p class="lead title pb-4">
+        Nós ajudamos você a maximizar a perfomance e construir uma organização
+        saudável.
+      </p>
+      <p>
+        <a href="#" class="btn btn-primary btn-lg" role="button">Saiba mais</a>
+      </p>
+    </div>
+  </header>
+
+  <section id="services" class="container">
+    <h2 class="display-4 text-center mt-5 mb-3">Nossos serviços</h2>
+
+    <div class="row text-center">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="images/design.jpg" alt="Design" />
+          <div class="card-body">
+            <h4 class="card-title">Design</h4>
+            <p class="card-text">
+              Entregue a melhor experiência de usuário com nossas aplicações
+              responsivas.
+            </p>
+          </div>
+          <div class="card-footer py-4">
+            <a href="#" class="btn btn-secondary">Portfolio &raquo;</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="images/development.jpg" alt="Development" />
+          <div class="card-body">
+            <h4 class="card-title">Desenvolvimento</h4>
+            <p class="card-text">
+              Você precisa de softwares que funcionam em qualquer dispositivo.
+            </p>
+          </div>
+          <div class="card-footer py-4">
+            <a href="#" class="btn btn-secondary">Projetos &raquo;</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="images/analytics.jpg" alt="Analytics" />
+          <div class="card-body">
+            <h4 class="card-title">Analytics</h4>
+            <p class="card-text">
+              Consulte nossos especialistas para encontrar o melhor stack para
+              sua proxima aplicação.
+            </p>
+          </div>
+          <div class="card-footer py-4">
+            <a href="#" class="btn btn-secondary">Depoimentos &raquo;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid text-center py-4 mt-4" id="contact">
+    <h2 class="display-4 pb-4 my-4">Etnre em contato conosco!</h2>
+    <p class="lead title pb-3">Mande uma mensagem</p>
+    <a href="#" class="btn btn-primary btn-lg mb-4" role="button">Entre em contato</a>
+  </section>
+  <footer class="py-3 bg-light">
+    <div class="container">
+      <p class="text-center">Copyright &copy; Olá mundo</p>
+    </div>
+  </footer>
+
+  <script src="scripts/jquery.js"></script>
+  <script src="scripts/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
